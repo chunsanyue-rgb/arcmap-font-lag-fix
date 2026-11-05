@@ -1,0 +1,49 @@
+# --- build artifacts -------------------------------------------------------
+*.o
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.map
+*.res
+tcc_build/
+
+# intermediate DLLs produced while experimenting with the IAT patch
+*.patched.dll
+base.dll
+c_out.dll
+afUILib.dll.orig
+
+# --- generated / scratch ---------------------------------------------------
+afpatch.out
+afFontShim.log
+*.log
+out.txt
+err.txt
+dbg.txt
+info.txt
+probe_*.txt
+busy.txt
+elev_test.txt
+install_log.txt
+
+# temporary working dirs
+tmp/
+.tmp/
+scratch/
+
+# --- python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# --- editors / OS ----------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
